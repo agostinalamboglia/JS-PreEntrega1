@@ -38,7 +38,7 @@ if (cuotas == 12){
 }
 console.log("Usted eligió: " + cuotas + " cuotas" + " con interés de: %" + interesCuotas);  
 
-//Calculo de intereses
+//Cálculo de intereses
 let cuotaBase = montoSolicitado / cuotas; 
 console.log("Cuota base: " + cuotaBase);
 let cuotaInteresPlan = (interesPlan/100) / cuotas;
